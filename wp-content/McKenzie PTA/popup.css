@@ -1,0 +1,32 @@
+/* 
+    Document   : popup
+    Created on : Aug 21, 2011, 5:06:32 PM
+    Author     : shari
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+
+body { background-image: url(images/bg_red.png);
+       font-family: Helvetica, Arial;
+       font-size: 11px;
+}
+
+
+.popwindow {
+	  display:none; 
+      position:absolute; 
+      border-style: solid; 
+	  border-width: thin;
+      background-color: white; 
+      padding: 10px;
+	}

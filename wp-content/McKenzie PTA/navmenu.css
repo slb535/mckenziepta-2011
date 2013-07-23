@@ -1,0 +1,82 @@
+/* The Div that surrounds the Drop Down Menu*/
+#navigation {
+float:left;
+width:100%;
+background: #A11C46; /* Background Color for your wp_nav_menu */
+font: bold 14px/.5 Arial, sans-serif; /* Font used in the wp_nav_menu */
+border-top:1px solid #FFFFFF; /* Border if you want one */
+border-bottom:5px solid #FFFFFF;
+}
+
+/* Menu Bar List */
+ul.dropdown {
+list-style:none; /* Gets rid of bullets in the list */
+float:left;
+width:100%;
+padding: 0 5px; /* Top and bottom padding of 0. Left and right of 5px */
+}
+
+ul.dropdown  li{
+float:left;
+position:relative;
+}
+
+ul.dropdown a { /* Menu link styling */
+padding:12px;
+color:#FFFFFF; /* Text color of links */
+text-decoration:none; /* Gets rid of underline for links */
+text-shadow:1px 1px 0 #000000; /* Puts a shadow under link 1px down, 1px to right, 0 blur & Black */
+}
+
+/* Styling when a link is hovered over */
+ul.dropdown li:hover a {
+background: #666; /* Background color for hovered link */
+color: #FFFFFF; /* Text color of links */
+text-shadow:1px 1px 0 #000000;
+}
+
+/* Displays Links as Blocks */
+ul.dropdown li ul a {
+display:block;
+}
+
+/* Styling for all of the Sub Menus  */
+
+ul.dropdown ul {
+list-style: none; /* Gets rid of bullets */
+margin:0;
+padding:0;
+width:200px; /* Width of the Drop Down Box */
+position:absolute; /* States that you are going to define exactly in pixels where the drop down appears */
+}
+
+ul.dropdown li ul {
+top:24px; /* The Drop Down Box appears 24px below the menu when the menu is hovered over*/
+}
+
+ul.dropdown ul ul { /* Styling for secondary drop downs (Drop Downs of a Drop Down) */
+top:5px;
+left:100%;
+background-color: pink;
+}
+
+ul.dropdown ul li {
+float:none;
+}
+
+/* Makes drop downs not appear by default unless the mouse hovers */
+ul.dropdown ul,
+ul.dropdown li:hover ul ul,
+ul.dropdown ul li:hover ul ul
+{ display: none; }
+
+ul.dropdown li:hover ul,
+ul.dropdown ul li:hover ul ,
+ul.dropdown ul li ul li:hover ul
+{ display: block;}
+
+ul.dropdown li * a:hover { /* Styling for every link that is hovered over */
+background: #A11C46;
+color: #FFFFFF;
+text-shadow:1px 1px 0 #000000;
+}

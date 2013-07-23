@@ -1,0 +1,60 @@
+/* Google calendar feed */
+
+#gce_widget-2 {
+     background-color: #fce9dd;
+}
+.g_title {  /* called in the functions file */
+    font-size: 13px;
+    font-weight: 800;
+    padding: 8px 0 0 5px;
+    color: #2f4d7c;
+    margin-bottom: 0;
+    line-height: 13px;
+   
+}
+
+.gce-feed-1, .gce-feed-2 {
+    padding-top: 10px;
+}
+
+
+.gce-list-event a {
+    font-size: 11px;
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+  
+}
+
+.gce-list-event-2 a{
+    color: #2F4D7C;
+    font-size: 11px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.gce-widget-list .gce-list .gce-list-event {
+    background-color: #fce9dd;
+}
+
+.gce-list  {
+    background-color: #fce9dd;
+    padding: 8px 0 0 10px;
+    line-height: 12px;
+    margin-bottom: 0;
+}
+
+
+.g_day {
+    font-size: 9px;
+    font-weight: 800;
+    }
+
+.gce-list-start {
+   font-size: 9px;
+   font-weight: bold;
+   padding-right: 5px;
+   padding-top: 0;
+    
+}
+

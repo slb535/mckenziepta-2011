@@ -1,0 +1,94 @@
+#gce_widget-2 {
+    
+}
+.g_title {
+    color: #000;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 13px;
+    padding: 8px 0 0 5px;
+}
+.gce-feed-1, .gce-feed-2 {
+    padding-top: 5px;
+}
+
+
+.gce-list-event {
+    color: #000;
+    font-size: .8em;
+}
+
+.gce-list-event a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+.gce-list-event-2 a {
+    color: #666;
+    font-size: .75em;
+    text-decoration: none;
+}
+
+.gce-list-event a:hover, .gce-list-event-2 a:hover {
+    text-decoration: underline;
+}
+.gce-widget-list .gce-list .gce-list-event {
+    line-height: 1.25em;
+}
+.gce-list {
+    line-height: 12px;
+    margin-bottom: 100px;
+    padding: 8px 0 0 10px;
+    list-style: none;
+    width: 100%; 
+
+}
+
+.gce-list-description {
+    font-style: italic;
+     color: #999;
+    font-size: .7em;
+    line-height: 1.2em;
+    padding-top: 2px;
+   
+}
+
+.g_day {
+    font-size: .9em;
+    font-weight: bold;
+    padding-top: 7px;
+    color: #000;
+}
+
+.gce-list-title {
+	font-size: .8em;
+}
+
+.gce-list-start {
+    font-size: .75em;
+    font-weight: bold;
+    padding-right: 5px;
+    padding-top: 0;
+}
+
+
+.gce-widget-list .gce-list .gce-list-event {
+    background-color: transparent;
+}
+
+#gce_widget-2 h2 {
+    font-size: 1em;
+	line-height: 1em;
+	margin-bottom: 0;
+}
+
+
+.gce-list {
+    padding: 0;
+}
+
+#gce_widget-2 {
+    background-color: #CEDAF0;
+    padding: 7px;
+}

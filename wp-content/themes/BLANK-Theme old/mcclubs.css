@@ -1,0 +1,250 @@
+
+
+.class-container {
+	width: 800px;
+	position: relative;
+        min-height: 115px;
+        margin-bottom: 10px;
+}
+
+.classtitle {
+font-size: 14px;
+font-weight: bolder;
+margin-top:15px;
+width: 550px;
+text-transform:uppercase;
+
+}
+
+.descriptions {
+    padding-top: 0px;
+    font-size: 12px;
+}
+
+
+.register {
+	right: 0;
+	top: 0;
+	position: absolute;
+        padding-right: 0;
+        margin-right: 0;
+}
+
+
+.new {
+color:#CC0000;
+font-weight:bold;
+text-align:right;
+font-size: 9px;
+}
+
+
+.day {
+font-size:14px;
+font-weight:bolder;
+color:#000099;
+margin-top:20px;
+margin-bottom:-5px;
+border-bottom-width:1px;
+border-bottom-style:solid;
+border-bottom-color:#00000;
+ }
+ 
+.grades {
+font-size:10px;
+font-style:italic;
+font-weight:bold;
+color: #319DCE;
+}
+
+.addinfo {
+color:#666666;
+font-weight:600;
+margin-bottom:3px;
+background-color:#ffffcc;
+}
+
+
+.am {
+font-size:10px;
+font-style: italic;
+color:#CC0000;
+}
+
+.location {
+    width: 100px;
+    background-color: #ccc;
+    padding: 5px;   
+    margin-top: 5px;
+ margin-left: 15px;
+ margin-bottom: 10px;
+    float: right;
+     clear: both;
+}
+
+.location ul {
+	list-style:none;
+        margin-left: 5px;
+}
+
+
+.location ul li {
+        font-size: 10px;
+	line-height: 11px;
+	padding-bottom: 4px;
+
+}
+
+.location ul li:first-line {
+    font-weight: 700;
+}
+
+
+
+th	{
+background-color:#319DCE;
+}
+
+td.schedule {
+background-color:#E6E6E6;
+
+}
+
+.buttons {
+color: white;
+background-color:#006699;
+text-align: center;
+margin-left: 20%;
+margin-right: 20%;
+font-size:14px;
+}
+
+
+
+.mc_footer {
+	font-size: 14px;
+	color: #319DCE;
+	text-decoration: none;
+	line-height: 15px;
+	font-weight: normal;
+}
+.tooltip {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;
+}
+.general_body_header {
+	font-size: 20px;
+	color: #319DCE;
+	text-decoration: none;
+	line-height: normal;
+	font-weight: bold;
+	letter-spacing: normal;
+	vertical-align: left;
+}
+.general_body_subheader {
+	font-size: 16px;
+	color: #000000;
+	text-decoration: none;
+	line-height: normal;
+	font-weight: bold;
+	letter-spacing: normal;
+	vertical-align: left;
+}
+.general_body {
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+	line-height: normal;
+	font-weight: normal;
+	letter-spacing: normal;
+}
+a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+a.tooltip span {
+	display:none;
+	padding:2px 3px;
+	margin-left:5px;
+	width:300px;
+	font-size: 10px;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-decoration: none;
+	background-color: #ECFDB9;
+}
+a.tooltip:hover span {
+	display:inline;
+	position:absolute;
+	border:1px solid #cccccc;
+	color:#000000;
+	background-color: #ECFDB9;
+	font-size: 10px;
+	font-weight: normal;
+}
+
+.mcnav {
+    width: 75%;
+}
+
+.mcnav ul {
+    list-style: none;
+    display: inline;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+
+.mcnav ul li a {
+    display: block;
+    margin: 0 0 2px 0;
+    padding: 7px 10px;
+    background: #00568e;
+    text-decoration: none;
+    height: 25px;
+    color: #FFF;  
+    width: 160px;
+}
+
+
+
+.mcnav ul li a:hover {
+        background: #8abfe2;
+}
+
+
+
+.reg_buttons {
+    
+    
+}
+
+div.mc_list ul li {
+    margin-left: 30px;
+}
+
+.mc_register {
+  width: 500px;
+  padding: 15px;
+   background-color: #FFF;
+   margin: 5px auto 25px;      
+}
+
+.mc_register li {
+	list-style: none;
+}
+
+a.iframe {
+    text-decoration: none;
+}
+
+#mcclubs_menu {
+    display: block;
+    margin-left: auto; 
+    margin-right: auto; 
+    
+}

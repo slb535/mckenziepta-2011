@@ -1,0 +1,45 @@
+#gce_widget-2 {
+    background-color: #F1F2F2;
+}
+.g_title {
+    color: #2F4D7C;
+    font-size: 13px;
+    font-weight: 800;
+    line-height: 13px;
+    margin-bottom: 0;
+    padding: 8px 0 0 5px;
+}
+.gce-feed-1, .gce-feed-2 {
+    padding-top: 10px;
+}
+.gce-list-event a {
+    color: green;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.gce-list-event-2 a {
+    color: #2F4D7C;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.gce-widget-list .gce-list .gce-list-event {
+    background-color: #FCE9DD;
+}
+.gce-list {
+    background-color: #FCE9DD;
+    line-height: 12px;
+    margin-bottom: 0;
+    padding: 8px 0 0 10px;
+}
+.g_day {
+    font-size: 9px;
+    font-weight: 800;
+}
+.gce-list-start {
+    font-size: 9px;
+    font-weight: bold;
+    padding-right: 5px;
+    padding-top: 0;
+}
